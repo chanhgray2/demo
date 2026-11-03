@@ -1,5 +1,5 @@
 // Temporary diagnostics for the getFilters response only.
-// Report response structure, never request headers or field values.
+// Report response structure and numeric application status, never request headers.
 (function () {
     try {
         var status = String($response.status || $response.statusCode || "unknown");
@@ -24,7 +24,11 @@
             }
         }
         try {
-            describe(JSON.parse($response.body), "response", 0);
+            var body = JSON.parse($response.body);
+            if (body && body.result && typeof body.result.status === "number") {
+                lines.push("result.status = " + body.result.status);
+            }
+            describe(body, "response", 0);
         } catch (error) {
             lines.push("Response is not valid JSON.");
         }
