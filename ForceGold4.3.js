@@ -156,7 +156,7 @@ if (ua.includes("Locket")) {
         camera_roll_video_upload_enabled: "true",
         internal_camera_roll_video_upload_enabled: "true",
         longer_camera_roll_videos_enabled: "true",
-        camera_roll_video_max_duration: "30.0",
+        camera_roll_video_max_duration: "50.0",
         camera_roll_max_duration: "30.0",
         camera_roll_duration: "30.0",
         max_video_duration: "30.0",
