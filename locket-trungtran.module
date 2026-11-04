@@ -4,6 +4,7 @@
 [General]
 user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
 
+
 [Script]
 locket_filter_check = type=http-response, pattern=^https:\/\/api\.locketcamera\.com\/getFilters(?:\?|$), script-path=https://raw.githubusercontent.com/chanhgray2/demo/refs/heads/master/locket-filter-check.js, requires-body=true, timeout=10
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/NightmarketServer/Module-Shadowrocket-NMS/refs/heads/main/Module-Shadowrocket-NMS/Locket%20Gold/locketfix8.js, requires-body=true, max-size=-1, timeout=60
