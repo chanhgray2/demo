@@ -45,13 +45,13 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD Trung Trần",
+            tag: "LOCKET GOLD Trung Trầnn",
             tag_gradient: true,
             tag_style: "gold_gradient",
             title: "Đã Kich Hoạt 💛",
             feature_set: [
                 {
-                    title: "Trung Trần ✨",
+                    title: "Trung Trầnn ✨",
                     body: "Zalo 0943660458"
                 }
             ],
