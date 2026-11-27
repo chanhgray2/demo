@@ -282,8 +282,8 @@ if (ua.includes("Locket")) {
         widget_last_sent_indicator: "false",
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
-            uid: "frame_robot_gamer_20261127",            
-            url: "https://i.ibb.co/d4vFGDw2/frame-sun-640.png",
+            uid: "frame_hinata_shoyo_20261127",            
+            url: "https://img.nodns.vn/i/778cdddf48c8da693beabae778821f64f8c313fe.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
