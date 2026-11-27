@@ -282,8 +282,8 @@ if (ua.includes("Locket")) {
         widget_last_sent_indicator: "false",
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
-            uid: "halloween_restored_20261127",            
-            url: "https://i.postimg.cc/fbY7MGdR/hlw.png",
+            uid: "hinata_postimages_transparent_v3",            
+            url: "https://i.postimg.cc/Vkf2FfwK/Anh-Chat-GPT-21-12-33-27-thg-11-2026.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
