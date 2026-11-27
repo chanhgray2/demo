@@ -282,8 +282,8 @@ if (ua.includes("Locket")) {
         widget_last_sent_indicator: "false",
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
-            uid: "frame_hinata_shoyo_transparent_v2",            
-            url: "https://raw.githubusercontent.com/chanhgray2/demo/master/assets/hinata-shoyo-transparent.png",
+            uid: "halloween_restored_20261127",            
+            url: "https://i.postimg.cc/fbY7MGdR/hlw.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
